@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
     const applications = {
-        "Space Shooter": "C:\Users\prana\AppData\Local\Discord\app-1.0.9177\Discord.exe",
+        "Space Shooter": "C:\\Users\\prana\\AppData\\Local\\Discord\\app-1.0.9177\Discord.exe",
         "Astro Drop": "C:\Users\prana\AppData\Roaming\Telegram Desktop\Telegram.exe"
     };
 
